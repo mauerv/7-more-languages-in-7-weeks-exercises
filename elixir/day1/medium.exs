@@ -28,7 +28,11 @@ defmodule Recursive do
 	end
 end
 
+
+
 IO.puts "Testing max_value function."
-IO.puts Recursive.max_value([])
-IO.puts Recursive.max_value([4])
-IO.puts Recursive.max_value([1, 4, 14, 2])
+list1 = []
+test2 = [4]
+test3 = [1, 4, 14, 2]
+IO.puts "The max value in list #{inspect list1} is #{Recursive.max_value([])}"
+
